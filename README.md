@@ -17,12 +17,15 @@ This repository contains my personal portfolio website and documents my journey 
   * **Star Citizen Gallery** (future CSS Grid project)
   * **Projects** (future Flexbox project)
 * Set up the HTML structure for future JavaScript features, including forms that will eventually allow me to upload images and projects without manually editing the HTML.
-* Improved accessibility by adding labels to forms and validating my HTML.
+* Improved accessibility by adding labels to forms.
+* Validated all HTML pages and fixed validation issues.
 
 ### 6/25/2026
-  * **Fixed** spelling errors and **fixed** tag errors.
-  * **Added** _name_ to the forms to make adding JS later easier.
-  * Just did an overall **polish** to the HTML and updated titles.
+
+* Fixed spelling and HTML tag errors.
+* Added `name` attributes to form fields to prepare for future JavaScript functionality.
+* Polished the HTML structure across all pages.
+* Updated page titles for consistency.
 
 ## Current Learning Roadmap
 
@@ -30,5 +33,7 @@ This repository contains my personal portfolio website and documents my journey 
 * 🔜 CSS
 * ⏳ JavaScript
 * ⏳ Backend Development
+
+## Goal
 
 My goal is to document my progress as I learn, build real projects, and create a portfolio that reflects my growth as a developer.
