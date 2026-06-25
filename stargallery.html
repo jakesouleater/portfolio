@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photos</title>
+    <title>Jacobs | SC Gallery</title>
   </head>
   <body>
     <header>
@@ -21,40 +21,65 @@
       <section class="aboutpage">
         <h2>The Gallery</h2>
         <p>
-          Welcome to my Star Citizen gallery! This is where I'll be learning CSS Grid using pictures I've taken in-game. I'll also be adding a way to upload images without having to manually edit the HTML.
+          Welcome to my Star Citizen gallery! This is where I'll be learning CSS
+          Grid using pictures I've taken in-game. I'll also be adding a way to
+          upload images without having to manually edit the HTML.
         </p>
       </section>
       <hr />
       <section class="gallery">
         <h2>Photo Uploader</h2>
-        <form>
-          <div class="imageupload">
-            <label for="photo-upload">Image Upload</label>
-            <input id="photo-upload" type="file" accept="image/*" />
-          </div>
-          <button type="submit">Submit Photo</button>
-        </form>
-        <hr />
-        <figure>
-          <img src="assets/images/Placeholder.png" alt="Placeholder image" />
-          <figcaption>This is a Placeholder image</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/Placeholder.png" alt="Placeholder image" />
-          <figcaption>This is a Placeholder image</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/Placeholder.png" alt="Placeholder image" />
-          <figcaption>This is a Placeholder image</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/Placeholder.png" alt="Placeholder image" />
-          <figcaption>This is a Placeholder image</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/Placeholder.png" alt="Placeholder image" />
-          <figcaption>This is a Placeholder image</figcaption>
-        </figure>
+        <div class="gallery-grid">
+          <form>
+            <div class="imageupload">
+              <label for="photo-upload">Image Upload</label>
+              <input
+                id="photo-upload"
+                type="file"
+                name="file"
+                required
+                accept="image/*"
+              />
+            </div>
+            <button type="submit">Submit Photo</button>
+          </form>
+          <hr />
+          <figure>
+            <img
+              src="assets/images/Placeholder.png"
+              alt="Coming soon project placeholder"
+            />
+            <figcaption>This is a Placeholder image</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/Placeholder.png"
+              alt="Coming soon project placeholder"
+            />
+            <figcaption>This is a Placeholder image</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/Placeholder.png"
+              alt="Coming soon project placeholder"
+            />
+            <figcaption>This is a Placeholder image</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/Placeholder.png"
+              alt="Coming soon project placeholder"
+            />
+            <figcaption>This is a Placeholder image</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/Placeholder.png"
+              alt="Coming soon project placeholder"
+            />
+            <figcaption>This is a Placeholder image</figcaption>
+          </figure>
+        </div>
       </section>
       <hr />
     </main>
@@ -62,7 +87,7 @@
       <h2>Contact me If you have any questions!</h2>
       <ul>
         <li>
-          <a href="mailto:jakesouleater@outlook.com" target="_blank">Email</a>
+          <a href="mailto:jakesouleater@outlook.com">Email</a>
         </li>
         <li>
           <a
