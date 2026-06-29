@@ -1,0 +1,90 @@
+/* ======================================
+   Global Styles
+   Jacob's Portfolio
+   ====================================== */
+
+/* Darkest      #062E2A
+Navbar       #063A33
+Sections     #0A4037
+
+Primary      #00674F
+Hover        #008F6A
+Glow         #00D49A
+Highlight    #39FFD0
+
+White        #F5F5F5
+Gray         #C7D8D4
+Muted        #8FA9A2 */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Nav bar */
+h1,
+h2,
+.menu li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow:0 8px 10px 1px  black;
+  margin-bottom: 50px;
+}
+.menu ul {
+  display: flex;
+}
+.menu li {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+header,
+footer {
+  background: #062e2a;
+  color: #f5f5f5;
+}
+a {
+  color: #f5f5f5;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+a:hover {
+  color: #00d49a;
+}
+
+.logo {
+  font-size: 1.25rem;
+  display: flex;
+  border: 2px solid #39ffd0;
+  box-shadow: 0 0 8px rgba(57, 255, 208, 0.5);
+  padding: 15px;
+  width: 300px;
+  height: 60px;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+nav {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: 50px;
+}
+
+.active {
+  color: #00d49a;
+  border-bottom: 2px solid;
+}
