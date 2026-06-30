@@ -27,6 +27,13 @@ This repository contains my personal portfolio website and documents my journey 
 * Polished the HTML structure across all pages.
 * Updated page titles for consistency.
 
+### 6/29/2026 - 6/30/2026 BIG UPDATE DAY!!! 
+
+* Added all the css files and linked them to their corresponding pages.
+* Added the css for the landing, about me and SC photo, got a better understanding of grid and flex.
+* Added more css to the global style.css.
+* Cleaned up the HTML on SC Photo, it was a hot mess.
+
 ## Current Learning Roadmap
 
 * ✅ HTML
