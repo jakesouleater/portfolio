@@ -1,0 +1,74 @@
+/* ======================================
+   Landing Styles
+   Jacob's Portfolio
+   ====================================== */
+body {
+  background: black;
+}
+h1,
+p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+main {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+img,
+.landing-text {
+  grid-row: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  
+}
+
+img {
+  grid-column: 1;
+}
+
+.landing-text {
+  grid-column: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 1;
+}
+
+.welcome {
+  color: #c7d8d4;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.jacob-port {
+  color: #e0e0e0;
+  font-size: 100px;
+  margin: 20px 20px;
+  border-bottom: 2px solid rgb(0 103 79 / 0.5);
+}
+
+.landing-btn {
+  color: #e0e0e0;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  font-size: 20px;
+  border: 2px solid #008f6a;
+}
+
+.intro {
+  color: #acacac;
+  word-spacing: 3px;
+  font-size: 25px;
+}

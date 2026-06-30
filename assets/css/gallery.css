@@ -1,0 +1,44 @@
+.logo {
+  width: 430px;
+}
+
+h1,
+h2 {
+ text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  word-spacing: 1px;
+}
+
+ .upload-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+} 
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(5 , minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+img {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}

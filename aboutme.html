@@ -6,16 +6,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/css/aboutme.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jacobs | Home</title>
   </head>
   <body>
     <header>
-      <h1 class="logo">Jacobs Portfolio</h1>
+      <h1 class="logo">Jacob's Portfolio</h1>
       <!-- This is the menu bar to navigate the site -->
       <nav class="menu">
         <ul>
@@ -27,10 +28,11 @@
       </nav>
     </header>
     <main class="landing">
-      <h1>Jacobs Portfolio</h1>
-      <img src="assets/images/me.png" alt="picture of Jacob" />
+      <h1>Jacob's Portfolio</h1>
+      <h2>About Me!</h2>
       <section class="about">
-        <h2>About Me!</h2>
+        <img src="assets/images/me.png" alt="picture of Jacob" />
+
         <p>
           I started getting into technology in high school when I built my first
           gaming PC in <em>2008</em>. Since then, I've spent years building,
@@ -53,48 +55,56 @@
           >.
         </p>
       </section>
-
       <hr />
       <section class="hobbies">
         <h2>Hobbies!</h2>
         <p>
-          I have quite a few hobbies that I like to do when I am or am not at my
-          pc.
+          <span class="littleheading"
+            >I have quite a few hobbies that I like to do when I am or am not at
+            my pc.</span
+          >
         </p>
-        <ol>
+        <hr />
+        <ul>
           <li>
             Play video games!
             <p>
-              I have been a gamer for a long time and don't see myself stopping
-              anytime soon. Right now I am playing a game called Star Citizen
-              and I am a part of an ORG.
+              <span
+                >I have been a gamer for a long time and don't see myself
+                stopping anytime soon. Right now I am playing a game called Star
+                Citizen and I am a part of an ORG.</span
+              >
             </p>
           </li>
           <li>
             Photography
             <p>
-              I started doing photography in high school as well and I took a
-              long break but I am trying to get back into it!
+              <span
+                >I started doing photography in high school as well and I took a
+                long break but I am trying to get back into it!</span
+              >
             </p>
           </li>
           <li>
             Movies and Anime.
             <p>
-              Like most people I like to watch movies, I really like
-              documentaries, true crime and movies set in space! When it comes
-              to anime, I'll watch just about anything.
+              <span
+                >Like most people I like to watch movies, I really like
+                documentaries, true crime and movies set in space! When it comes
+                to anime, I'll watch just about anything.</span
+              >
             </p>
           </li>
           <li>
             Play with my dogs.
-            <p>This is my most favorite things to do!</p>
+            <p><span>This is my most favorite things to do!</span></p>
           </li>
-        </ol>
+        </ul>
       </section>
       <hr />
+      <h2>Meet My Dogs!</h2>
       <section class="dogs">
-        <h2>Meet My Dogs!</h2>
-        <figure>
+        <figure class="wednesday">
           <img
             src="assets/images/wednesday.jpg"
             alt="A picture of Wednesday my dog."
@@ -104,7 +114,7 @@
             this portfolio she is 6 years old.
           </figcaption>
         </figure>
-        <figure>
+        <figure class="slinky">
           <img
             src="assets/images/Slinky.jpg"
             alt="A picture of Slinky my other dog."
@@ -117,8 +127,8 @@
       </section>
       <hr />
     </main>
+    <h2>Contact me If you have any questions!</h2>
     <footer id="contact">
-      <h2>Contact me If you have any questions!</h2>
       <ul>
         <li>
           <a href="mailto:jakesouleater@outlook.com">Email</a>
@@ -130,10 +140,17 @@
             >Linkedin</a
           >
         </li>
-        <li>Phone: 727-459-1907</li>
+        <li>Phone: <strong>727-459-1907</strong></li>
       </ul>
       <form>
-        <h2>Question Box.</h2>
+        <div class="qbox">
+          <label for="qbox">Ask Here:</label>
+          <textarea
+            id="qbox"
+            name="question"
+            placeholder="Ask your questions here!"
+          ></textarea>
+        </div>
         <div class="email">
           <label for="email">Email:</label>
           <input
@@ -152,16 +169,8 @@
             placeholder="Phone number"
           />
         </div>
-        <div class="qbox">
-          <label for="qbox">Ask Here:</label>
-          <textarea
-            id="qbox"
-            name="question"
-            placeholder="Ask your questions here!"
-          ></textarea>
-        </div>
-        <button type="submit">Submit</button>
       </form>
     </footer>
+    <button type="submit">Submit</button>
   </body>
 </html>

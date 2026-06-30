@@ -25,7 +25,9 @@ Muted        #8FA9A2 */
 /* Nav bar */
 h1,
 h2,
-.menu li {
+.menu li,
+.landing-btn,
+button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -36,7 +38,7 @@ header {
   height: 100px;
   display: flex;
   justify-content: space-between;
-  box-shadow:0 8px 10px 1px  black;
+  box-shadow: 0 8px 10px 1px black;
   margin-bottom: 50px;
 }
 .menu ul {
@@ -87,4 +89,102 @@ nav {
 .active {
   color: #00d49a;
   border-bottom: 2px solid;
+}
+
+/* Styling for all pages */
+
+p,
+h1,
+h2,
+footer,
+li {
+  color: lightgray;
+}
+
+body {
+  background: #000000;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 39%,
+    rgba(6, 46, 42, 1) 77%
+  );
+  color: white;
+  min-height: 100vh;
+}
+
+hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  height: 2px;
+  background-color: rgb(0 103 79);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+span {
+  color: #acacac;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  color: #acacac;
+}
+
+footer {
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: space-evenly;
+  background: black;
+}
+
+label {
+  padding: 5px;
+}
+
+form {
+  display: grid;
+  gap: 15%;
+  align-items: center;
+  max-width: 400px;
+}
+
+strong,
+em,
+figcaption {
+  color: #39ffd0;
+}
+button {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 47px;
+  height: 50px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #008f6a;
+  background-color: #000000;
+  color: #008f6a;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #008f6a;
+}
+
+.upload-btn {
+  border: 2px solid #008f6a;
+  height: 60px;
+  width: 150px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #000000;
+  font-family: "Merriweather", serif;
+  box-shadow: 0 0 15px 1px #000000;
+  color: lightgrey;
+}
+
+.upload-btn:hover {
+  color: #000000;
+  background-color: #008f6a;
 }

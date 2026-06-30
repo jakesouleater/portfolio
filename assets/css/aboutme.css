@@ -1,0 +1,64 @@
+.landing h1,
+h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.about img {
+  display: block;
+  height: 400px;
+  margin: 10px;
+}
+.about {
+  justify-content: center;
+  display: flex;
+
+  width: 50;
+}
+
+.about p {
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30%;
+  font-size: 18px;
+  word-spacing: 1px;
+}
+
+.hobbies ul {
+  display: block;
+  margin-left: 100px;
+  text-decoration: dotted;
+  word-spacing: 1px;
+  font-size: 20px;
+  width: 50%;
+  color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.littleheading {
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  word-spacing: 1px;
+}
+
+.dogs img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 400px;
+  padding-bottom: 10px;
+}
+
+.dogs {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  font-family: "Merriweather", serif;
+  word-spacing: 1px;
+  color: #acacac;
+}
